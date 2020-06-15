@@ -5,8 +5,7 @@ import sys
 from pathlib import Path
 
 counter = 0
-
-toIgnore = ["node_modules", "__pycache__", ".cache"]
+toIgnore = ["node_modules", "__pycache__", ".cache", ".out", "Makefile", "README",".git"]
 
 dd = sys.argv[1]
 
